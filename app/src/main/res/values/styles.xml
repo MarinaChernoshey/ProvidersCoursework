@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--|||||||||||||||||||||||||||||MainActivity||||||||||||||||||||||||||||||||||||||||||||||||-->
+    <style name="TextViewItemRecyclerViewProvidersList">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--|||||||||||||||||||||||||||||AddActivity|||||||||||||||||||||||||||||||||||||||||||||||||-->
+
+    <style name="AddLayout">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="SpinnerAnswers">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="add_layout_item">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_weight">8</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="graph_text_harington_description_criteria">
+        <item name="android:textSize">8sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="TextSaatiCardCriteria">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="textSaatiBall">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:width">32dp</item>
+        <item name="android:height">32dp</item>
+    </style>
+
+    <style name="LayoutSaatiBall">
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="textSaatiBallDescription">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+</resources>

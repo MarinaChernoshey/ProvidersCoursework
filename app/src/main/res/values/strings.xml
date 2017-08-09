@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Providers</string>
+    <string name="action_pareto">Удалить не Парето-оптимальные решения</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="provider">Поставщик</string>
+
+    <string name="ball_quality_5">Очень хорошо</string>
+    <string name="ball_quality_4">Хорошо</string>
+    <string name="ball_quality_3">Нормально</string>
+    <string name="ball_quality_2">Плохо</string>
+    <string name="ball_quality_1">Очень плохо</string>
+
+    <string-array name="quality_answers">
+        <item>Очень хорошо</item>
+        <item>Хорошо</item>
+        <item>Нормально</item>
+        <item>Плохо</item>
+        <item>Очень плохо</item>
+    </string-array>
+
+    <string name="ball_delivery_2">Да</string>
+    <string name="ball_delivery_1">Нет</string>
+
+    <string-array name="delivery_answers">
+        <item>Да</item>
+        <item>Нет</item>
+    </string-array>
+</resources>
